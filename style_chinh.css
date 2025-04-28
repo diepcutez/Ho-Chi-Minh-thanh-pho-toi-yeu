@@ -1,0 +1,84 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(248, 248, 248);
+}
+
+.style_header{
+    height: 10% !important;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(58, 52, 139) !important;
+    padding-top: 5px;
+    color: rgb(224, 42, 42) !important;
+}
+
+.style_content{
+    height: 90% !important;
+    color: 	#da251dff !important;
+}
+
+.foot-page{
+    height: 10% !important;
+}
+
+.style_content_1{
+    height: 100%;
+}
+
+.style_4{
+    height: 100%;
+    background-color: #fffce2 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #da251dff;
+    color: #ffff00ff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 25%;
+    
+  }
+  
+  .tablink:hover {
+    background-color: #f37267e5;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: 	#da251dff;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    text-align: justify;
+  }
+  
+  #Home {background-color: #fffce2;}
+  #News {background-color: #fffce2;}
+  #Contact {background-color: #fffce2;}
+  #About {background-color: #fffce2;}
+
+.style_8{
+    height: 100%;
+    background-color: #fffce2 !important;
+}
+
+.style_popup{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 100%;
+    line-height: 2px;
+    justify-content: center;
+    font-style: bold;
+}
